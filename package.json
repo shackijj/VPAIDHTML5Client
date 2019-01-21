@@ -1,5 +1,5 @@
 {
-  "name": "vpaid-html5-client",
+  "name": "@shaskijj/vpaid-html5-client",
   "version": "0.1.14",
   "description": "VPAID HTML5",
   "main": "js/VPAIDHTML5Client.js",
