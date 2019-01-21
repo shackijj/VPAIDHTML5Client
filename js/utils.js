@@ -132,8 +132,10 @@ function setIframeContent(iframeEl, content) {
     var iframeDoc = iframeEl.contentWindow && iframeEl.contentWindow.document;
     if (!iframeDoc) return false;
 
+    iframeDoc.open();
     iframeDoc.write(content);
-
+    iframeDoc.close();
+    
     return true;
 }
 
