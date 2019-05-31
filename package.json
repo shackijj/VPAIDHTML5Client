@@ -1,8 +1,9 @@
 {
-  "name": "@shaskijj/vpaid-html5-client",
-  "version": "0.1.14",
+  "name": "@shackijj/vpaid-html5-client",
+  "version": "0.1.15",
   "description": "VPAID HTML5",
   "main": "js/VPAIDHTML5Client.js",
+  "types": "vpaid-htmk5-client.d.ts",
   "scripts": {
     "start": "gulp serve",
     "test": "gulp test:ci"
