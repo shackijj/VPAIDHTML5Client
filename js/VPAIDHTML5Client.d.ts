@@ -12,7 +12,7 @@ declare namespace VPAIDHTML5Client {
         readonly videoSlotCanAutoPlay?: boolean;
     }
     class VPAIDAdUnit {
-        new(creative: VPAIDCreative, el?: HTMLElement, video?: HTMLVideoElement)
+        constructor(creative: VPAIDCreative, el?: HTMLElement, video?: HTMLVideoElement)
         initAd(
             width: number,
             height: number,
@@ -61,7 +61,7 @@ declare namespace VPAIDHTML5Client {
          * @param templateConfig template: html template to be used instead of the default, extraOptions: to be used when rendering the template
          * @param vpaidOptions timeout: when loading adUnit
          */
-        new(el: HTMLElement, video: HTMLVideoElement, templateConfig?: string, vpaidOptions?: {timeout: number});
+        constructor(el: HTMLElement, video: HTMLVideoElement, templateConfig?: string, vpaidOptions?: {timeout: number});
         /**
          * @param adURL url of the js of the adUnit
          * @param callback
