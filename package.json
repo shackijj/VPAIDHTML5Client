@@ -1,6 +1,6 @@
 {
   "name": "@shackijj/vpaid-html5-client",
-  "version": "0.1.18",
+  "version": "0.1.19",
   "description": "VPAID HTML5",
   "main": "js/VPAIDHTML5Client.js",
   "types": "js/VPAIDHTML5Client.d.ts",
